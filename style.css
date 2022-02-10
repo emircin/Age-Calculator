@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/sparkles.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: sans-serif;
+}
+h1 {
+    color: rgb(33, 33, 34);
+    text-align: center;
+    margin-top: 6%;
+    font-size: 4rem;
+}
+.birthday--cal{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(33, 33, 34);
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+span{
+    font-size: 4rem;
+}
+section{
+    text-align: center;
+    margin-top: 3%;
+}
+.select--birthday{
+    display: block;
+    margin: 1% 0;
+    font-size: 1.5rem;
+    color: rgb(33, 33, 34);
+
+}
+.birthday{
+    background-color: #dece9d;
+    padding: 5px 20px;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+}
+.spinner > p {
+    font-size: 2.4rem;
+}
